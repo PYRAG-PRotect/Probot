@@ -310,7 +310,6 @@ export default function handler(req, res) {
         }
 
         let body = `## 🔍 Security Analysis  
-**Security Score:** ${score}/100  
 `;
         if (findings.length) body += findings.join("\n") + "\n\n";
 
