@@ -1,0 +1,26 @@
+{
+  "name": "my-probot-app",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A probot app",
+  "author": "Geethika-Kancharla",
+  "license": "ISC",
+  "homepage": "https://github.com//",
+  "keywords": [
+    "probot",
+    "github",
+    "probot-app"
+  ],
+  "scripts": {
+    "test": "node --test"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7"
+  },
+  "devDependencies": {
+    "nock": "^14.0.0-beta.5"
+  },
+  "engines": {
+    "node": ">= 18"
+  }
+}

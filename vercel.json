@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "routes": [
+    {
+      "src": "/api/github/webhooks",
+      "dest": "/api/github/webhooks/index.js",
+      "methods": ["POST"],
+      "headers": {
+        "Content-Type": "application/json"
+      }
+    }
+  ]
+}
